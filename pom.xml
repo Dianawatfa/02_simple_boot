@@ -57,9 +57,6 @@
 				<artifactId>spotbugs-maven-plugin</artifactId>
 				<version>3.1.1</version>
 				<configuration>
-					<effort>Max</effort>
-					<threshold>Low</threshold>
-					<failOnError>true</failOnError>
 					<plugins>
 						<plugin>
 							<groupId>com.h3xstream.findsecbugs</groupId>
