@@ -60,7 +60,6 @@
 					<effort>Max</effort>
 					<threshold>Low</threshold>
 					<failOnError>true</failOnError>
-					<includeFilterFile>${session.executionRootDirectory}/spotbugs-include.xml</includeFilterFile>
 					<plugins>
 						<plugin>
 							<groupId>com.h3xstream.findsecbugs</groupId>
